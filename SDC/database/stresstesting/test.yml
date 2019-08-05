@@ -1,0 +1,13 @@
+config:
+  target: 'http://localhost:1337'
+  phases:
+    - duration: 180
+      arrivalRate: 10
+  processor: "./testFuncs.js"
+scenarios:
+  - flow:
+    - loop:    
+      - function: "generateId"
+      - get:
+          url: "/api/products/{{ id }}"
+      count: 10

@@ -1,0 +1,12 @@
+node_modules
+spec
+jest.config.js
+.DS_Store
+coverage
+/client/dist/bundle.js
+/client/dist/bundle.js.gz
+/client/dist/style.css
+/SDC/database/colors2.csv
+/SDC/database/product2.csv
+/SDC/database/types.csv
+/SDC/database/test.sh
