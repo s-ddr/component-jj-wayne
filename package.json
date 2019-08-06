@@ -2,7 +2,7 @@
   "name": "component-jj",
   "version": "1.0.0",
   "description": "Product Carousel",
-  "main": "index.js",
+  "main": "/SDC/server/deployedServer.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/unclesam-hr/component-jj.git"
