@@ -2,14 +2,14 @@
   "name": "component-jj",
   "version": "1.0.0",
   "description": "Product Carousel",
-  "main": "./SDC/server/deployedServer.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/unclesam-hr/component-jj.git"
   },
   "license": "ISC",
   "scripts": {
-    "start": "nodemon ./SDC/server/deployedServer.js",
+    "start": "nodemon server",
     "seed": "node data/seed.js",
     "build": "webpack -d --watch",
     "test": "jest --coverage",
