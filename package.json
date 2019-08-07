@@ -13,7 +13,7 @@
     "seed": "node data/seed.js",
     "build": "webpack -d --watch",
     "test": "jest --coverage",
-    "test:watch": "jest --watch",
+    "test:watch": "jest --watch"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
