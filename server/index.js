@@ -1,9 +1,9 @@
+const newRelic = require('newrelic');
 const express = require('express');
 const parser = require('body-parser');
 const path = require('path');
 const cors = require('cors')
 const { get } = require('./controllers.js');
-const newRelic = require('newrelic');
 
 const app = express();
 const port = 3004;
