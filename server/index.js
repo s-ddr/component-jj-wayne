@@ -27,8 +27,5 @@ app.use(parser.urlencoded({ extended: true }));
 // app.use(express.static(path.join(__dirname, '../client/dist')));
 
 app.get('/api/product/:id', cors(), get);
-app.get('/loaderio-f4e260d9267cae80ee6ccf6584bbb7d8/', (req, res) => {
-  res.status(200).send('loaderio-f4e260d9267cae80ee6ccf6584bbb7d8');
-});
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
