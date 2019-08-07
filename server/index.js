@@ -5,7 +5,7 @@ const cors = require('cors')
 const { get } = require('./controllers.js');
 
 const app = express();
-const port = 3003;
+const port = 3004;
 
 app.get('*.js.gz', (req, res, next) => {
   res.set('Content-Encoding', 'gzip');
