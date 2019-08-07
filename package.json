@@ -13,7 +13,7 @@
     "seed": "node data/seed.js",
     "build": "webpack -d --watch",
     "test": "jest --coverage",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
@@ -39,6 +39,7 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongoose": "^5.6.2",
+    "newrelic": "^5.11.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-icons": "^3.7.0",
