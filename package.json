@@ -10,7 +10,7 @@
   "license": "ISC",
   "scripts": {
     "start": "nodemon server",
-    "start2": "nodemon ./server/index2.js"
+    "start2": "nodemon ./server/index2.js",
     "seed": "node data/seed.js",
     "build": "webpack -d --watch",
     "test": "jest --coverage",
