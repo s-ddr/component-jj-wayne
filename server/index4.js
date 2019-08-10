@@ -27,5 +27,15 @@ app.use(parser.urlencoded({ extended: true }));
 // app.use(express.static(path.join(__dirname, '../client/dist')));
 
 app.get('/api/product/:id', cors(), get);
+app.post('/api/product', (req, res) => {
+  let { id, productName, type, imageDefault, images, colors, price, gallery } = req.body;
+  db.Product.create({id, productName, type, imageDefault, images, colors, price, gallery})
+  .then(() => {
+    res.status(201).send('successfully created data into the database');
+  })
+  .catch((error) => {
+    res.status(404).send(`failed to create ${error}`);
+  });
+});
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
