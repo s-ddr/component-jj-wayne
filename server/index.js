@@ -1,10 +1,11 @@
-const newRelic = require('newrelic');
+// const newRelic = require('newrelic');
 const express = require('express');
 const parser = require('body-parser');
 const path = require('path');
 const cors = require('cors')
 const { get } = require('./controllers.js');
-const db = require('../database/index.js')
+// const db = require('../database/index.js');
+// const redis = require('redis');
 
 const app = express();
 const port = 3004;
